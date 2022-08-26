@@ -1,99 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Filmes</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Filmes</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="src/js/rating.js" crossorigin></script>
 </head>
+
 <body>
-  <main>
-    <h2>Filmes Populares</h2>
-    <div class="input-container">
-      <input type="text" name="movie-name" id="movie-name" placeholder="Digite algum filme para pesquisar...">
-      <img src="images/search-icon.svg" alt="Ícone de pesquisa" class="searchIcon">
-    </div>
-    <div class="showOnlyFavorites">
-      <input type="checkbox" name="onlyFavorites" id="onlyFavorites">
-      <label for="onlyFavorites">Mostrar apenas meus filmes favoritos</label>
-    </div>
-    <div class="movies">
-      <div class="movie">
-        <div class="movie-informations">
-          <div class="movie-image">
-            <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="Batman (2022)"/>
-          </div>
-          <div class="movie-text">
-            <h4>Batman (2022)</h4>
-            <div class="rating-favorites">
-              <div class="rating">
-                <img src="images/star.png" alt="Star Icon"/>
-                <span>9.2</span>
-              </div>
-              <div class="favorite">
-                <img src="images/heart.svg" alt="Star Icon"/>
-                <span>Favoritar</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="movie-description">
-          <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
-        </div>
-      </div>
+	<main>
+		<h2>Filmes Populares</h2>
+		<div class="input-container">
+			<input type="text" name="movie-name" id="movie-name" placeholder="Digite algum filme para pesquisar...">
+			<img src="images/search-icon.svg" alt="Ícone de pesquisa" class="searchIcon">
+		</div>
+		<div class="showOnlyFavorites">
+			<input type="checkbox" name="onlyFavorites" id="onlyFavorites">
+			<label for="onlyFavorites">Mostrar apenas meus filmes favoritos</label>
+		</div>
+		<div class="movies">
+			<div class="movie">
+				<div class="movie-informations">
+					<div class="movie-image">
+						<img src="https://uploads.jovemnerd.com.br/wp-content/uploads/2021/07/imagem_2021-11-01_190745.png"
+							alt="Encanto (2021)" />
+					</div>
+					<div class="movie-text">
+						<h4>Encanto (2021)</h4>
+						<div class="rating-favorites">
+							<div class="rating">
+								<img src="images/star.png" alt="Star Icon" />
+								<span id="Encanto">0.0</span>
+							</div>
+							<div class="favorite">
+								<img src="images/heart.svg" alt="Star Icon" />
+								<span>Favoritar</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="movie-description">
+					<span>Na Colômbia, uma jovem lida com a frustração de ser o único membro da família que não tem
+						poderes mágicos.</span>
+				</div>
+			</div>
 
-      <div class="movie">
-        <div class="movie-informations">
-          <div class="movie-image">
-            <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="Batman (2022)"/>
-          </div>
-          <div class="movie-text">
-            <h4>Batman (2022)</h4>
-            <div class="rating-favorites">
-              <div class="rating">
-                <img src="images/star.png" alt="Star Icon"/>
-                <span>9.2</span>
-              </div>
-              <div class="favorite">
-                <img src="images/heart.svg" alt="Star Icon"/>
-                <span>Favoritar</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="movie-description">
-          <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
-        </div>
-      </div>
+			<div class="movie">
+				<div class="movie-informations">
+					<div class="movie-image">
+						<img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx100922-ltoQa6rosUyP.png"
+							alt="Grand Blue (2018)" />
+					</div>
+					<div class="movie-text">
+						<h4>Grand Blue (2018)</h4>
+						<div class="rating-favorites">
+							<div class="rating">
+								<img src="images/star.png" alt="Star Icon" />
+								<span id="grand">0.0</span>
+							</div>
+							<div class="favorite">
+								<img src="images/heart.svg" alt="Star Icon" />
+								<span>Favoritar</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="movie-description">
+					<span>Iori Kitahara se muda para a cidade costeira de Izu para seu primeiro ano na universidade,
+						residindo em Grand Blue, a loja de mergulho de seu tio. Iori tem grandes esperanças e sonhos de
+						ter a experiência ideal da faculdade, mas quando ele entra na loja é sugado pelas atividades
+						alcoólicas dos membros despreocupados do Diving Club que frequentam o local.</span>
+				</div>
+			</div>
 
-      <div class="movie">
-        <div class="movie-informations">
-          <div class="movie-image">
-            <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg" alt="Batman (2022)"/>
-          </div>
-          <div class="movie-text">
-            <h4>Batman (2022)</h4>
-            <div class="rating-favorites">
-              <div class="rating">
-                <img src="images/star.png" alt="Star Icon"/>
-                <span>9.2</span>
-              </div>
-              <div class="favorite">
-                <img src="images/heart.svg" alt="Star Icon"/>
-                <span>Favoritar</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="movie-description">
-          <span>Lorem Ipsum is simply Lar dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
-        </div>
-      </div>
-    </div>
-  </main>
+			<div class="movie">
+				<div class="movie-informations">
+					<div class="movie-image">
+						<img src="https://br.web.img3.acsta.net/pictures/19/02/15/09/54/4975550.jpg"
+							alt="Love, Death & Robots" />
+					</div>
+					<div class="movie-text">
+						<h4>Love, Death & Robots</h4>
+						<div class="rating-favorites">
+							<div class="rating">
+								<img src="images/star.png" alt="Star Icon" />
+								<span id="love">0.0</span>
+							</div>
+							<div class="favorite">
+								<img src="images/heart.svg" alt="Star Icon" />
+								<span>Favoritar</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="movie-description">
+					<span>Uma coleção de contos animados que abrangem vários gêneros, incluindo ficção científica,
+						fantasia, horror e comédia.</span>
+				</div>
+			</div>
+		</div>
+	</main>
 </body>
+
 </html>
